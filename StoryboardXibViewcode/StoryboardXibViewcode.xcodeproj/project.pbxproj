@@ -13,6 +13,9 @@
 		219F615126EFA0B30040C18B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 219F614F26EFA0B30040C18B /* Main.storyboard */; };
 		219F615326EFA0B50040C18B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 219F615226EFA0B50040C18B /* Assets.xcassets */; };
 		219F615626EFA0B50040C18B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 219F615426EFA0B50040C18B /* LaunchScreen.storyboard */; };
+		21FF261726EFE3AF001C4111 /* TelaExemploView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FF261626EFE3AF001C4111 /* TelaExemploView.swift */; };
+		21FF261926F0D2C2001C4111 /* TelaXibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FF261826F0D2C2001C4111 /* TelaXibViewController.swift */; };
+		21FF261B26F0D38C001C4111 /* TelaExemploView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21FF261A26F0D38C001C4111 /* TelaExemploView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		219F615226EFA0B50040C18B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		219F615526EFA0B50040C18B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		219F615726EFA0B50040C18B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21FF261626EFE3AF001C4111 /* TelaExemploView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaExemploView.swift; sourceTree = "<group>"; };
+		21FF261826F0D2C2001C4111 /* TelaXibViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaXibViewController.swift; sourceTree = "<group>"; };
+		21FF261A26F0D38C001C4111 /* TelaExemploView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TelaExemploView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				219F615226EFA0B50040C18B /* Assets.xcassets */,
 				219F615426EFA0B50040C18B /* LaunchScreen.storyboard */,
 				219F615726EFA0B50040C18B /* Info.plist */,
+				21FF261626EFE3AF001C4111 /* TelaExemploView.swift */,
+				21FF261826F0D2C2001C4111 /* TelaXibViewController.swift */,
+				21FF261A26F0D38C001C4111 /* TelaExemploView.xib */,
 			);
 			path = StoryboardXibViewcode;
 			sourceTree = "<group>";
@@ -127,6 +136,7 @@
 				219F615626EFA0B50040C18B /* LaunchScreen.storyboard in Resources */,
 				219F615326EFA0B50040C18B /* Assets.xcassets in Resources */,
 				219F615126EFA0B30040C18B /* Main.storyboard in Resources */,
+				21FF261B26F0D38C001C4111 /* TelaExemploView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21FF261926F0D2C2001C4111 /* TelaXibViewController.swift in Sources */,
 				219F614E26EFA0B30040C18B /* ViewController.swift in Sources */,
 				219F614A26EFA0B30040C18B /* AppDelegate.swift in Sources */,
+				21FF261726EFE3AF001C4111 /* TelaExemploView.swift in Sources */,
 				219F614C26EFA0B30040C18B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TelaExemploView" customModule="StoryboardXibViewcode" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Eu sou uma tela construída em Xib" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="67t-eV-SfK">
+                    <rect key="frame" x="16" y="84" width="382" height="26.5"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cZS-Lq-W5c">
+                    <rect key="frame" x="87" y="170.5" width="240" height="120"/>
+                    <color key="backgroundColor" systemColor="systemTealColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="240" id="fet-Vc-Spg"/>
+                        <constraint firstAttribute="height" constant="120" id="mcr-cG-lcl"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mni-zc-Vz5">
+                    <rect key="frame" x="87" y="330.5" width="240" height="128"/>
+                    <color key="backgroundColor" systemColor="systemYellowColor"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pLc-HG-66N">
+                    <rect key="frame" x="16" y="772" width="382" height="30"/>
+                    <color key="backgroundColor" red="0.35294118520000001" green="0.78431367870000002" blue="0.98039215800000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <state key="normal" title="Próxima tela">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Mni-zc-Vz5" firstAttribute="top" secondItem="cZS-Lq-W5c" secondAttribute="bottom" constant="40" id="A9R-1r-DH1"/>
+                <constraint firstItem="Mni-zc-Vz5" firstAttribute="height" secondItem="cZS-Lq-W5c" secondAttribute="height" multiplier="1.06667" id="KzU-H9-MyZ"/>
+                <constraint firstItem="cZS-Lq-W5c" firstAttribute="top" secondItem="67t-eV-SfK" secondAttribute="bottom" constant="60" id="Ly6-EP-Ozd"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="pLc-HG-66N" secondAttribute="bottom" constant="60" id="PMh-Ri-Zz7"/>
+                <constraint firstItem="Mni-zc-Vz5" firstAttribute="leading" secondItem="cZS-Lq-W5c" secondAttribute="leading" id="UYX-Sz-n1a"/>
+                <constraint firstItem="Mni-zc-Vz5" firstAttribute="trailing" secondItem="cZS-Lq-W5c" secondAttribute="trailing" id="ceH-fn-8er"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="67t-eV-SfK" secondAttribute="trailing" constant="16" id="fKp-oI-3ji"/>
+                <constraint firstItem="pLc-HG-66N" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="gD8-wj-Gqt"/>
+                <constraint firstItem="67t-eV-SfK" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="40" id="huk-V7-nAM"/>
+                <constraint firstItem="cZS-Lq-W5c" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="kTB-3G-6iv"/>
+                <constraint firstItem="67t-eV-SfK" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="tMz-I2-eea"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="pLc-HG-66N" secondAttribute="trailing" constant="16" id="xSt-4N-mnM"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="95"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
