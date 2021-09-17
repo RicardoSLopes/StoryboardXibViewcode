@@ -38,6 +38,9 @@
                     <state key="normal" title="Próxima tela">
                         <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </state>
+                    <connections>
+                        <action selector="didTapNextScreen:" destination="-1" eventType="touchUpInside" id="0ac-P9-5L9"/>
+                    </connections>
                 </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>

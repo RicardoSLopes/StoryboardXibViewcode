@@ -16,6 +16,7 @@
 		21FF261726EFE3AF001C4111 /* TelaExemploView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FF261626EFE3AF001C4111 /* TelaExemploView.swift */; };
 		21FF261926F0D2C2001C4111 /* TelaXibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FF261826F0D2C2001C4111 /* TelaXibViewController.swift */; };
 		21FF261B26F0D38C001C4111 /* TelaExemploView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21FF261A26F0D38C001C4111 /* TelaExemploView.xib */; };
+		21FF261D26F224AD001C4111 /* TelaViewcodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FF261C26F224AD001C4111 /* TelaViewcodeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		21FF261626EFE3AF001C4111 /* TelaExemploView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaExemploView.swift; sourceTree = "<group>"; };
 		21FF261826F0D2C2001C4111 /* TelaXibViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaXibViewController.swift; sourceTree = "<group>"; };
 		21FF261A26F0D38C001C4111 /* TelaExemploView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TelaExemploView.xib; sourceTree = "<group>"; };
+		21FF261C26F224AD001C4111 /* TelaViewcodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaViewcodeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				21FF261626EFE3AF001C4111 /* TelaExemploView.swift */,
 				21FF261826F0D2C2001C4111 /* TelaXibViewController.swift */,
 				21FF261A26F0D38C001C4111 /* TelaExemploView.xib */,
+				21FF261C26F224AD001C4111 /* TelaViewcodeViewController.swift */,
 			);
 			path = StoryboardXibViewcode;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 				219F614E26EFA0B30040C18B /* ViewController.swift in Sources */,
 				219F614A26EFA0B30040C18B /* AppDelegate.swift in Sources */,
 				21FF261726EFE3AF001C4111 /* TelaExemploView.swift in Sources */,
+				21FF261D26F224AD001C4111 /* TelaViewcodeViewController.swift in Sources */,
 				219F614C26EFA0B30040C18B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

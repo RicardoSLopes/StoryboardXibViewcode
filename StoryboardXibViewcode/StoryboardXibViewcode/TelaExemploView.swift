@@ -7,12 +7,16 @@
 
 import UIKit
 
+protocol TelaExemploViewDelegate: AnyObject {
+    func didTapNextScreen()
+}
+
+
 class TelaExemploView: UIView {
     
     
     // MARK: - Constants
-    
-    private let marginView: CGFloat = 16
+    weak var delegate: TelaExemploViewDelegate?
     
     // MARK: Outlets
     
@@ -28,4 +32,9 @@ class TelaExemploView: UIView {
         
         return UIView()
     }
+    
+    @IBAction func didTapNextScreen(_ sender: UIButton) {
+        delegate?.didTapNextScreen()
+    }
+    
 }
